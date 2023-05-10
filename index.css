@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    background: #828489;
+}
+
+.center-container {
+    width: 650px;
+}
+.add-grocery {
+    background: #4d7ea8;
+}
+
+.add-grocery , .show-grocery {
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    border: 2px solid #272932;
+    box-shadow: 0 5px 10px #272932;
+}
+
+.add-grocery h2 {
+    color: #b6c2d9;
+    font-size: 1.7rem;
+}
+
+.item-input {
+    width: 100%;
+    margin-top: 4px;
+    background: transparent;
+    border: none;
+    border-bottom: 5px solid #9e90a2;
+    padding: 0.5rem;
+    outline: none;
+    color: #9e90a2;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.btn-submit {
+    width: 90%;
+    margin-top: 2rem;
+    padding: 3px 0;
+    font-size: 22px;
+    color: #b6c2d9;
+    background: transparent;
+    border: 3px solid #b6c2d9;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background: #b6c2d9;
+    color: #272932;
+}
+
+.show-grocery {
+    background: #b6c2d9;
+}
+
+.show-grocery h2 {
+    color: #4d7ea8;
+    font-size: 1.5rem;
+}
+
+.clear-btn {
+    width: 90%;
+    margin-top: 2rem;
+    padding: 3px 0;
+    font-size: 22px;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    background: transparent;
+    border: 3px solid #4d7ea8;
+}
+
+
+/* item added */
+.info {
+    display: block;
+    padding: 4px 0;
+    width: 100%;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.info-container {
+    margin-bottom: 0.7rem;
+}
+
+/* item removed */
+
+.info2 {
+    display: block;
+    padding: 4px 0;
+    width: 100%;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.footer-info {
+    margin-bottom: 0.7rem;
+}
+
+/* grocery list  */
+.grocery-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.grocery-item:hover{
+    background: #828489;
+}
+
+.grocery-title{
+    text-align: left;
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: #272932;
+}
+
+.grocery-icon{
+    color: red;
+    transition: all 2s;   
+    margin-right: 40px;
+}
+
+.grocery-item:hover .grocery-icon{
+    transform: scale(1.5);
+}
+
+
+/* display */
+.display {
+    display: none;
+}
+
